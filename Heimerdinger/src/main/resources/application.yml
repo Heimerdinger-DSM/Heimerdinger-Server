@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    generate-ddl: true
+
+  jackson:
+    property-naming-strategy: SNAKE_CASE
